@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
+/*
+! ---------------------------------------------------------------------------------------------------------------------- VARIABLES */
+/*
+! ---------------------------------------------------------------------------------------------------------------------- end VARIABLES */
+/* 
+* ---------------------------------------------------------------------------------------------------------------------- COMMON */
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+/*
+* ---------------------------------------------------------------------------------------------------------------------- end COMMON */
+/* 
+? ---------------------------------------------------------------------------------------------------------------------- HEADER */
+header .navbar {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+  padding: 28px 0;
+}
+header .navbar .container-fluid {
+  padding: 0%;
+  max-width: 90.2777777778%;
+}
+header .navbar .container-fluid .navbar-collapse form button[type=button] {
+  border-radius: 0%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+header .navbar .container-fluid .navbar-collapse form button[type=button]:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #cc0000;
+  color: white;
+  border: 2px solid transparent;
+}
+header .navbar .container-fluid .navbar-collapse form button[type=button].blacked-text {
+  color: #000;
+  border: 2px solid #000;
+}
+header .navbar .container-fluid .navbar-collapse form button[type=button].blacked-text:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #cc0000;
+  color: white;
+  border: 2px solid transparent;
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav {
+  column-gap: 30px;
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.01em;
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid #cc0000;
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link.blacked-text {
+  color: #000;
+}
+header .navbar.scrolled {
+  background: #fff !important;
+  transition: background 500ms linear;
+}
+header .nav-blend-mode {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  top: 0%;
+  height: 102px;
+  display: block;
+}
+
+/*
+? ---------------------------------------------------------------------------------------------------------------------- end HEADER */
+/* 
+? ---------------------------------------------------------------------------------------------------------------------- MAIN */
+main section .video-section-bg {
+  height: 1080px;
+  position: relative;
+}
+main section .video-section-bg video {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+main section .blend-mode {
+  position: absolute;
+  top: 0%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  height: 1080px;
+  width: 100%;
+}
+main section .video-text {
+  position: absolute;
+  bottom: 90px;
+  left: 4.8611111111%;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+  letter-spacing: -1px;
+}
+main section .video-text span {
+  color: #cc0000;
+}
+main section .row {
+  max-width: 100%;
+}
+main #video-top {
+  position: relative;
+}
+main #video-top #light-accent {
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+/* 
+? ---------------------------------------------------------------------------------------------------------------------- end MAIN */
+
+/*# sourceMappingURL=style.css.map */
